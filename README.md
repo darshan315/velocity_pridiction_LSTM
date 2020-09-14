@@ -6,7 +6,7 @@ LSTM stands for Long short-term memory. LSTM is a recurrent nueral network. Most
 3. Forget gate
 4. Remember gate(Rarely)
 
-+More Info : https://arxiv.org/pdf/1808.03314.pdf
++ More Info : https://arxiv.org/pdf/1808.03314.pdf
 
  
 
@@ -19,16 +19,16 @@ Althought the function file is very simple to iterate and compute desired data b
 we want our model to map from one time step to next time step. Intiuitavely when one time step is supplied to network, network can predict next time step.
 &Phi;</sub>t &rarr; &Phi;</sub>t+1 
 
-+More Info about LSTM Model : Please refer documentaion of 
++ More Info about LSTM Model : Please refer documentaion of 
 
 # Result
 The result you can find below:
 1. Result of specific snap of timestep
-![f=2, a=0.02](model_img_epoch_plot_trial_5.png)
+![f=2, a=0.02](lstm_png.png)
 Blue - Ground truth, Green - Prediction
 
 2. Result of all timesteps
-![](model_img_epoch_gif_trial_5.gif)
+![](lstm_gif.gif)
 + Due to limited computed power, the code was run in accordance to lighter hyperparameter.
 
 # Conclusion
