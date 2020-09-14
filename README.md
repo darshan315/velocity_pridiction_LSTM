@@ -25,6 +25,7 @@ we want our model to map from one time step to next time step. Intiuitavely when
 The result you can find below:
 1. Result of specific snap of timestep
 ![f=2, a=0.02](lstm_png.png)
+
 Blue - Ground truth, Green - Prediction
 
 2. Result of all timesteps
